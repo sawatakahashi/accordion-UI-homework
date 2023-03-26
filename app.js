@@ -41,3 +41,12 @@
     index++;
   }
 })();
+
+window.onload = function () {
+  setTimeout(() => {
+    const loader = document.querySelector(".loader");
+    loader.classList.add("loaded");
+    const box = document.querySelector(".box");
+    box.style.visibility = "visible";
+  }, 1500);
+};
