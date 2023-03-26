@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tab Bar/Class, Instance</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="tab" id="js-tab">
+        <div class="tab_nav">
+          <a href="#" class="tab_nav_items is_active" data-nav="0">問題１</a>
+          <a href="#" class="tab_nav_items" data-nav="1">問題２</a>
+          <a href="#" class="tab_nav_items" data-nav="2">問題３</a>
+        </div>
+        <div class="tab-contents">
+          <div class="tab_content_items" data-content="0">
+            <div id="js_tag">
+              <div class="quiz">冷蔵庫の中に動物がいます。どんな動物？</div>
+              <p class="accordion_trigger">ヒント</p>
+              <div class="accordion_contents">
+                「れいぞうこ」の言葉をよく見て
+              </div>
+              <p class="accordion_trigger">答え</p>
+              <div class="accordion_contents">
+                ぞう(test: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Esse iusto eveniet voluptatum delectus, commodi quam iste
+                voluptate corporis nemo quo assumenda provident sequi quibusdam
+                quas eius ducimus reiciendis error voluptatibus libero illum!
+                Odio corporis cumque dolores, dicta impedit consectetur quaerat
+                enim dolore deserunt veniam voluptatibus dignissimos debitis
+                pariatur sunt ducimus et! Vero tempore vel maxime rerum
+                similique eaque sit minus quia commodi, suscipit velit corrupti
+                in sapiente deleniti hic magnam totam repellat eveniet pariatur
+                et saepe at cupiditate laborum! Enim saepe magnam repellendus
+                sequi sit commodi voluptas laboriosam adipisci suscipit
+                corrupti, cum quae nobis harum rem ad fugiat eaque. At.)
+              </div>
+            </div>
+          </div>
+          <div class="tab_content_items" data-content="1">
+            <div id="js_accordion">
+              <div class="quiz">氷の上で滑ってしまった鳥はなんでしょう？</div>
+              <span class="accordion_trigger">ヒント</span>
+              <div class="accordion_contents">擬音語を考えてみましょう</div>
+              <span class="accordion_trigger">答え</span>
+              <div class="accordion_contents">鶴(ツル)</div>
+            </div>
+          </div>
+          <div class="tab_content_items" data-content="2">
+            <div id="js_mini">
+              <div class="quiz">
+                階段の１番上と１番下にあるものはなんでしょう？
+              </div>
+              <p class="accordion_trigger">ヒント</p>
+              <div class="accordion_contents">
+                階段をひらがなで縦に書いてみましょう
+              </div>
+              <p class="accordion_trigger">答え</p>
+              <div class="accordion_contents">缶(かん)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
